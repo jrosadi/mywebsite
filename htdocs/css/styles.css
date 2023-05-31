@@ -4,11 +4,16 @@
  }
 
 .jumbotron {
-    background-image: url("/assets/img/htmlcode.jpg") !important;
+    background-image: url("/assets/img/html-code.jpg") !important;
     background-size: cover;
     min-height: 900px !important;
     text-align: center;
     padding: 250px 0;
+}
+
+.row {
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 @keyframes fadein {
