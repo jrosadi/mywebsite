@@ -1,5 +1,6 @@
  body {
    padding-top: 0px !important;
+    animation: fadein 0.5s;
  }
 
 .jumbotron {
@@ -10,3 +11,7 @@
     padding: 250px 0;
 }
 
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
