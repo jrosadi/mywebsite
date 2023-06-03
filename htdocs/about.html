@@ -21,12 +21,20 @@
     }
 
     .img-responsive {
-  max-width: 80%; /* or to whatever you want here */
+  max-width: 60%; /* or to whatever you want here */
   max-height: auto; /* or to whatever you want here */
       display:block;
     margin:auto;
-    padding:30px
 }
+
+  .thumbnail {
+  margin: 20px;
+  inline-size: min-content;
+  }
+
+  .thumbnail img{
+  padding: 5px;
+  }
   </style>
 </head>
 <body>
@@ -44,11 +52,18 @@
 <h2 style="text-align:center">About The CEO and Owner</h2>
 
 <div class="container text-center">
- <img src="/assets/img/me.jpg" class="img-responsive" alt = "Me!">
-  <h3>My name is Julian Rosadi and I have recently graduated from 8th grade, and am soon going to high school.
-  I have several years of coding experience, and I have recently decided to learn web development.</h3>
+
+<div class="thumbnail">
+  <div class="container">
+    <img src="/assets/img/me.jpg" class="img-responsive" alt = "Me!">
+    <div class="caption">
+      <h4>My name is Julian Rosadi and I have recently graduated from 8th grade, and am soon going to high school.
+        I have several years of coding experience, and I have recently decided to learn web development.</h4>
+    </div>
+  </div>
+
 </div>
 
-
+</div>
 </body>
 </html>
